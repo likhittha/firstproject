@@ -1,0 +1,11 @@
+.Nav{
+    background-color: brown;
+    height: 50vh;
+
+}
+
+.Two{
+    background-color: aqua;
+    display :flex;
+    justify-content: space-evenly;
+}
