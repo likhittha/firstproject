@@ -3,7 +3,7 @@ export default function Navbar() {
   const name = "likhitha";
   const numberid = "123";
   let data = {
-    name: "likhi (pandhi)",
+    name: "likhi",
     number: 123,
     group: "blue",
   };
