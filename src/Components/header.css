@@ -1,16 +1,44 @@
-.outerDiv{
-    color: blue;
+.outerDiv {
+  color: blue;
 }
 
 .image {
-    background-image: url("../Assets/shape3.JPG");
-    background-size: cover;
-    width: 400px;
-    height: 600px;
-    background-position: center;
-   
+  background-image: url("../Assets/shape3.JPG");
+  background-size: cover;
+  width: 400px;
+  height: 600px;
+  background-position: center;
 }
 
+.stateComponent {
+  background-color: black;
+  color: #fff;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.stateBody {
+  height: 40vh;
+  width: 100%;
+  background-color: cyan;
+}
 
+.Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.button {
+  color: #fff;
+  background-color: blueviolet;
+  padding: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgb(81, 47, 29);
+}
