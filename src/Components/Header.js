@@ -1,11 +1,19 @@
+import "./header.css"
+
 export const Header = () => {
+ const handleClick =() =>{
+  console.log("clicked")
+ }
   return (
     <>
       <div className="outerDiv">
         <h1>Header</h1>
-        <div></div>
+        <div className="image"></div>
       </div>
-      <h1>veer</h1>
+  <div>
+    <button onClick={handleClick}>click me </button>
+  </div>
+  
     </>
   );
 };
