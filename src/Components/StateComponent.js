@@ -10,6 +10,8 @@ export const StateComponent = () => {
     console.log("btn clicked");
     setName("likhi");
     setIsPandhi(!isPandhi);
+    
+
   };
 
   return (
@@ -31,7 +33,7 @@ export const StateComponent = () => {
         value ? (?mark means if its true) : (mark means else value ) */}
 
           {isPandhi ? (
-            <div> likhitha is pandhi </div>
+            <div> veer is pandhi </div>
           ) : (
             <div> likhitha is not pandhi </div>
           )}

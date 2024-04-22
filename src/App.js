@@ -12,6 +12,10 @@ function App() {
   const handleClick = () => {
     console.log("clicked from APP.js");
   };
+  
+    const newClick = () => {
+      console.log("clicked from APP.js");
+    }; 
   return (
     <>
       <div className="first">first app</div>
@@ -19,7 +23,7 @@ function App() {
 
       <div>
         <Demo1 name={"----------"} onClick={handleClick} />
-        <Demo2 name={"-----------"} myClass={"tenth"} college={"presidency"} />
+        <Demo2 name={"-----------"} myClass={"tenth"} college={"presidency"} id={"1234"} onClick={newClick}/>
         <StateComponent />
         <Header />
         <Body />

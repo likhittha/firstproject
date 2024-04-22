@@ -10,6 +10,7 @@ export const Header = () => {
         <h1>Header</h1>
         <div className="image"></div>
       </div>
+      {/*below button has been */}
   <div>
     <button onClick={handleClick}>click me </button>
   </div>
@@ -17,3 +18,8 @@ export const Header = () => {
     </>
   );
 };
+
+
+
+
+
