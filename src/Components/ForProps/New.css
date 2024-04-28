@@ -1,0 +1,23 @@
+.ui{
+    text-align: center;
+
+}
+
+.first  {
+    color: brown;
+}
+
+.Title {
+    color: brown;
+}
+
+.field {
+    text-align: center;
+    color: brown;
+}
+.ui button{
+    color: black;
+    background-color: brown;
+    text-align: center;
+    border-radius: 2%;
+}

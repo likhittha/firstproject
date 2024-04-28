@@ -1,5 +1,5 @@
-export const Demo2 = ({ name, myClass, college, id, handleClick, newClick}) => {
- const handleClick =() => {
+export const Demo2 = ({ name, myClass, college, id,  }) => {
+ const onClick1 =() => {
   console.log("tapped");
 
  }
@@ -11,11 +11,10 @@ export const Demo2 = ({ name, myClass, college, id, handleClick, newClick}) => {
       <div>college:{college}</div>
       <div>id:{id}</div>
       <div>
-        <button onClick={handleClick}>tap me  </button>
+        <button onClick={onClick1}>tap me  </button>
       </div>
-      <div>
-        <button onClick={newClick}>click</button>
-      </div>
+      
     </>
+
   );
-};
+}

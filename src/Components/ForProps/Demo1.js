@@ -1,4 +1,4 @@
-export const Demo1 = ({ name, onClick }) => {
+export const Demo1 = ({ name, onClick, onTap }) => {
   //   const handleClick = () => {
   //     console.log("clicked");
   //   };
@@ -11,6 +11,11 @@ export const Demo1 = ({ name, onClick }) => {
       <div>
         <button onClick={onClick}>click me</button>
       </div>
+<div>
+  <button onClick={onTap}>Tap me</button>
+</div>
+
+
     </>
   );
 };
