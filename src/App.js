@@ -11,6 +11,8 @@ import { New } from "./Components/ForProps/New";
 import { New1 } from "./Components/ForProps/New1";
 import { Count } from "./Components/Count";
 import { Route, Routes, useNavigate } from "react-router-dom";
+import { LogIn } from "./Screens/LogIn";
+import { MainScreen } from "./Screens/MainScreen";
 
 
 
@@ -71,11 +73,9 @@ const demo1 =()=>{
 
   return (
     <>
-      <div className="first">first app</div>
-      <div>blue</div>
+      
 
-
-
+{/*
 <div className="buttonContainer">
 <div onClick={demo1} className="btn">
 demo1
@@ -106,9 +106,9 @@ demo2
 <div  onClick={()=>{navigate("/count")}}className="btn">
   count
 </div>
-</div>
+</div> */}
 
-
+{/*
   <Routes>
     <Route path="/" Component={Demo1} />
     <Route path="/demo2" Component={Demo2} />
@@ -120,6 +120,24 @@ demo2
     <Route path="/new1" Component={New1} />
     <Route path="/count" Component={Count} />
   </Routes>
+
+*/}
+
+<Routes>
+
+<Route path="/" Component={LogIn} />
+<Route path="/main" Component={MainScreen} />
+
+</Routes>
+
+
+
+
+
+
+
+
+
 
 
     </>

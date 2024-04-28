@@ -1,0 +1,57 @@
+
+.mainClass {
+    background-color:#B3C8CF;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.mainClass1{
+    background-color: #BED7DC;
+    height:70vh;
+    text-align: center;
+    width:80%;   
+    border-radius: 25px; 
+}
+
+.border{
+    border: 5px solid #F1EEDC;
+    height: 50vh;
+    width: 60%; 
+    margin: 0 auto; 
+     margin-top: 4%;
+     padding: 10px;
+     border-radius: 25px;
+}
+label.email {
+    display: inline-block; /* Ensure labels take up space */
+    width: 100px; /* Adjust width as needed */
+    text-align: left;
+    margin-right: 65px;
+    margin-top:10px; /* Add some space between label and input */
+  }
+input[type="name"],
+  input[type="email"],
+  input[type="password"] {
+   
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 60px;
+  
+
+  }
+
+
+.log{
+    background-color: black;
+    color:white;
+    margin-top: 5%;
+    border-radius: 10px;
+    padding: 9px;
+}
+  
+ 
+
