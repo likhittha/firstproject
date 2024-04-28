@@ -10,6 +10,7 @@ import { Demo2 } from "./Components/ForProps/Demo2";
 import { New } from "./Components/ForProps/New";
 import { New1 } from "./Components/ForProps/New1";
 import { Count } from "./Components/Count";
+import { Route, Routes, useNavigate } from "react-router-dom";
 
 
 
@@ -21,23 +22,106 @@ function App() {
     const tapClick= () => {
       console.log("clicked from APP.js");
     };
+
+
+
+const navigate = useNavigate();
+
+   const demo2 =() => {
+    navigate("/demo2")
+   } 
   
+   const state =() => {
+    navigate("/state")
+
+   }
+const header =()=>{
+  navigate("/header")
+}
+
+const body =()=>{
+  navigate("/body")
+}
+
+const new1 =() =>{
+  navigate("/new1")
+}
+
+const footer =() =>{
+  navigate("/footer")
+}
+
+
+const navnew =() =>{
+  navigate("/new")
+}
+
+const count =() => {
+  navigate("/count")
+
+}
+
+
+const demo1 =()=>{
+  navigate("/")
+}
+
+
+
+
   return (
     <>
       <div className="first">first app</div>
       <div>blue</div>
 
-      <div>
-        <Demo1 name={"----------"} onClick={handleClick} onTap={tapClick}/>
-        <Demo2 name={"-----------"} myClass={"tenth"} college={"presidency"} id={"1234"} onClick={"onClick"}/>
-        <StateComponent />
-        <Header />
-        <Body />
-        <Footer />
-        <New />
-        <New1 />
-        <Count />
-      </div>
+
+
+<div className="buttonContainer">
+<div onClick={demo1} className="btn">
+demo1
+</div>
+
+
+<div onClick={demo2} className="btn">
+demo2 
+</div>
+<div onClick={state} className="btn">
+  state
+</div>
+<div  onClick={header} className="btn">
+  header
+</div>
+<div onClick={body} className="btn">
+  body
+</div>
+<div  onClick={footer}className="btn">
+  footer
+</div>
+<div  onClick={navnew} className="btn">
+  new
+</div>
+<div  onClick={new1}className="btn">
+  new1
+</div>
+<div  onClick={()=>{navigate("/count")}}className="btn">
+  count
+</div>
+</div>
+
+
+  <Routes>
+    <Route path="/" Component={Demo1} />
+    <Route path="/demo2" Component={Demo2} />
+    <Route path="/state" Component={StateComponent} />
+    <Route path="/header" Component={Header} />
+    <Route path="/body" Component={Body} />
+    <Route path="/footer" Component={Footer} />
+    <Route path="/new" Component={New} />
+    <Route path="/new1" Component={New1} />
+    <Route path="/count" Component={Count} />
+  </Routes>
+
+
     </>
   );
 };

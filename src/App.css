@@ -1,2 +1,18 @@
-.first {
+.buttonContainer{
+    display:flex;
+    
+}
+
+.btn{
+    background-color: peru;
+    padding: 14px;
+    margin:2px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: black;
+      color: white;
+
+
 }
