@@ -53,5 +53,113 @@ input[type="name"],
     padding: 9px;
 }
   
+ .main2{
  
+  background-color:black;
+    height:110vh;
+ }
 
+.main1{
+ display: flex;
+ text-align: center;
+
+}
+
+.div1{
+background-color: skyblue;
+height: 100vh;
+width:50%;
+margin-right: 5px;
+margin-left: 5px;
+margin-top: 30px;
+margin-bottom: 5px;
+
+
+}
+
+.div2{
+  background-color: aquamarine;
+  height: 100vh;
+width:50%;
+margin-right: 5px;
+margin-left: 5px;
+margin-top: 30px;
+margin-bottom: 5px;
+}
+
+.card {
+  border: 5px solid #F1EEDC;
+    height: 50vh;
+    width: 60%; 
+    margin: 0 auto; 
+     margin-top:20%;
+     padding: 10px;
+     border-radius: 25px;
+     color: black;
+
+}
+
+.card1 {
+  border: 5px solid #F1EEDC;
+    height: 50vh;
+    width: 60%; 
+    margin: 0 auto; 
+     margin-top: 30px;
+     padding: 10px;
+     border-radius: 25px;
+     color: black;
+
+}
+
+.pic{
+  margin-left: 70%;
+  margin-top: 5%;
+ display: flex;
+ flex-direction: row;
+}
+
+.pic1{
+  border-radius: 50%;
+  height:80px;
+  width:80px;
+}
+
+.name{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+}
+
+
+
+
+
+ .heart{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-left: 30px;
+  
+ }
+
+ .brain{
+border-radius: 50%;
+width: 100px;
+height: 100px;
+margin-left: 30px;
+ }
+
+
+ .aligin{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+ }
+
+ .p{
+  line-height: 2.0;
+ }
+
+ 

@@ -1,11 +1,21 @@
+import { useState } from "react";
 import { useNavigate } from "react-router-dom"
+
 import "./MainScreen.css"
 export const LogIn =() => {
-    const navigate = useNavigate();
 
-const handleClick =()=> {
-    navigate("/main");
+  const[name, setName] = useState('');
+    const navigate = useNavigate();
+    
+
+
+
+
+const handleClick = () => {
+  console.log(name);
+    navigate(`/main/${name}`);
 }  
+
 
 
 
@@ -22,7 +32,11 @@ const handleClick =()=> {
 
   <div>
 <label className="email"> Name</label>
-<div ><input type="name" placeholder="Enter name"/></div>
+<div ><input
+ type="name"
+ placeholder="Enter name"
+ value={name}
+ onChange={(e) => setName(e.target.value)}/></div>
 </div> 
 
 
