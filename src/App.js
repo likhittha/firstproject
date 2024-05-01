@@ -14,6 +14,7 @@ import { Route, Routes, useNavigate } from "react-router-dom";
 import { LogIn } from "./Screens/LogIn";
 import { MainScreen } from "./Screens/MainScreen";
 import { Example } from "./Screens/Example/Example";
+import { Example1 } from "./Screens/Example/Example1";
 
 function App() {
   const handleClick = () => {
@@ -115,6 +116,7 @@ demo2
         <Route path="/main/:name" Component={MainScreen} />
         <Route path="/main/:name/:email" Component={MainScreen} />
         <Route path="/ex" Component={Example} />
+        <Route path="/ex1" Component={Example1} />
       </Routes>
     </>
   );
