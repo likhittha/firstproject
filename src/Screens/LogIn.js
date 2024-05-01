@@ -7,15 +7,21 @@ export const LogIn =() => {
   const[name, setName] = useState('');
     const navigate = useNavigate();
     
+const[email, setEmail] = useState('');
 
 
 
 
 const handleClick = () => {
-  console.log(name);
-    navigate(`/main/${name}`);
-}  
+if(name && !email){
+  navigate(`/main/${name}`);
+}
+else if(name && email){
+  navigate(`/main/${name}/${email}`)
+}
 
+
+}  
 
 
 
@@ -37,12 +43,22 @@ const handleClick = () => {
  placeholder="Enter name"
  value={name}
  onChange={(e) => setName(e.target.value)}/></div>
+
+
+
+
 </div> 
 
 
 
 <label className="email"> Email</label>
-<div ><input type="email" placeholder="Enter your email" />
+<div ><input type="email" placeholder="Enter your email" 
+value={email} onChange={(e) => setEmail(e.target.value)}
+
+
+/>
+
+
 </div>
 
 <div>

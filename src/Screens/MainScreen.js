@@ -5,8 +5,8 @@
  import  "./MainScreen.css"
  export const MainScreen = () => {
     
-        const { name } = useParams();
-console.log(name);
+        const { name , email} = useParams();
+console.log(name , email);
 return(
 
     <>
@@ -35,6 +35,7 @@ And now here is my secret, a very simple secret: It is only with the heart that 
 <div className="pic"> 
 <div><img className="pic1" src={pic}/></div>
 <div className="name"> { name } </div>
+<div className="name"> { email } </div>
 
 </div>
 

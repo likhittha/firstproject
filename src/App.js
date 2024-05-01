@@ -127,6 +127,7 @@ demo2
 
 <Route path="/" Component={LogIn} />
 <Route path="/main/:name" Component={MainScreen} />
+<Route path="/main/:name/:email" Component={MainScreen} />
 
 </Routes>
 
