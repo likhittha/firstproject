@@ -13,69 +13,56 @@ import { Count } from "./Components/Count";
 import { Route, Routes, useNavigate } from "react-router-dom";
 import { LogIn } from "./Screens/LogIn";
 import { MainScreen } from "./Screens/MainScreen";
-
-
-
+import { Example } from "./Screens/Example/Example";
 
 function App() {
   const handleClick = () => {
     console.log("clicked from APP.js");
   };
-    const tapClick= () => {
-      console.log("clicked from APP.js");
-    };
+  const tapClick = () => {
+    console.log("clicked from APP.js");
+  };
 
+  const navigate = useNavigate();
 
+  const demo2 = () => {
+    navigate("/demo2");
+  };
 
-const navigate = useNavigate();
+  const state = () => {
+    navigate("/state");
+  };
+  const header = () => {
+    navigate("/header");
+  };
 
-   const demo2 =() => {
-    navigate("/demo2")
-   } 
-  
-   const state =() => {
-    navigate("/state")
+  const body = () => {
+    navigate("/body");
+  };
 
-   }
-const header =()=>{
-  navigate("/header")
-}
+  const new1 = () => {
+    navigate("/new1");
+  };
 
-const body =()=>{
-  navigate("/body")
-}
+  const footer = () => {
+    navigate("/footer");
+  };
 
-const new1 =() =>{
-  navigate("/new1")
-}
+  const navnew = () => {
+    navigate("/new");
+  };
 
-const footer =() =>{
-  navigate("/footer")
-}
+  const count = () => {
+    navigate("/count");
+  };
 
-
-const navnew =() =>{
-  navigate("/new")
-}
-
-const count =() => {
-  navigate("/count")
-
-}
-
-
-const demo1 =()=>{
-  navigate("/")
-}
-
-
-
+  const demo1 = () => {
+    navigate("/");
+  };
 
   return (
     <>
-      
-
-{/*
+      {/*
 <div className="buttonContainer">
 <div onClick={demo1} className="btn">
 demo1
@@ -108,7 +95,7 @@ demo2
 </div>
 </div> */}
 
-{/*
+      {/*
   <Routes>
     <Route path="/" Component={Demo1} />
     <Route path="/demo2" Component={Demo2} />
@@ -123,28 +110,14 @@ demo2
 
 */}
 
-<Routes>
-
-<Route path="/" Component={LogIn} />
-<Route path="/main/:name" Component={MainScreen} />
-<Route path="/main/:name/:email" Component={MainScreen} />
-
-</Routes>
-
-
-
-
-
-
-
-
-
-
-
+      <Routes>
+        <Route path="/" Component={LogIn} />
+        <Route path="/main/:name" Component={MainScreen} />
+        <Route path="/main/:name/:email" Component={MainScreen} />
+        <Route path="/ex" Component={Example} />
+      </Routes>
     </>
   );
-};
+}
 
 export default App;
-
-         

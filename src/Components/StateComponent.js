@@ -10,19 +10,20 @@ export const StateComponent = () => {
     console.log("btn clicked");
     setName("likhi");
     setIsPandhi(!isPandhi);
-    
-
   };
 
   return (
     <>
-      <div className="stateComponent">
+      <div className="bg-[#000]  text-[#fff] p-4 items-center justify-center flex">
         <div>This is StateComponent</div>
       </div>
       <div className="stateBody">
         {/* For Button */}
         <div className="Container">
-          <div onClick={handleBtnClick} className="button">
+          <div
+            onClick={handleBtnClick}
+            className="bg-[#640D6B] p-3 items-center justify-center flex text-white mt-3 rounded-full cursor-pointer hover:bg-[#B51B75]"
+          >
             click me to add
           </div>
         </div>
