@@ -15,6 +15,7 @@ import { LogIn } from "./Screens/LogIn";
 import { MainScreen } from "./Screens/MainScreen";
 import { Example } from "./Screens/Example/Example";
 import { Example1 } from "./Screens/Example/Example1";
+import { Templete } from "./Screens/Templates/Templete";
 
 function App() {
   const handleClick = () => {
@@ -117,6 +118,8 @@ demo2
         <Route path="/main/:name/:email" Component={MainScreen} />
         <Route path="/ex" Component={Example} />
         <Route path="/ex1" Component={Example1} />
+        <Route path="/templete" Component={Templete} />
+        
       </Routes>
     </>
   );
