@@ -17,6 +17,7 @@ import { Example } from "./Screens/Example/Example";
 import { Example1 } from "./Screens/Example/Example1";
 import { Templete } from "./Screens/Templates/Templete";
 
+
 function App() {
   const handleClick = () => {
     console.log("clicked from APP.js");

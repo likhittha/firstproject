@@ -1,0 +1,14 @@
+.bg{
+    background-image:url("./bg.webp") ;
+    height:300px ;
+    width: 400px;
+    background-size:cover ;
+    
+}
+
+.bg1{
+    background-image:url("./tropical.jpg") ;
+   
+    background-size:cover ;
+
+}
