@@ -1,0 +1,52 @@
+.nav-item {
+    position: relative;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .nav-item::after {
+    content: '';
+    position: absolute;
+    left: 50%; /* Start from the center */
+    bottom: -2px; /* Adjust this value to your liking */
+    width: 0;
+    height: 2px;
+    background-color: #5AB2FF; /* Underline color */
+    transition: none; /* Remove transition */
+  }
+  
+  .nav-item:hover::after {
+    animation: expandUnderline 0.3s ease-in-out forwards;
+  }
+  
+  @keyframes expandUnderline {
+    0% {
+      width: 0;
+      left: 50%; /* Start from the center */
+    }
+    50% {
+      width: 100%; /* Expand to the right */
+      left: 0; /* Move to the left edge */
+    }
+    100% {
+      width: 100%; /* Maintain width */
+      left: 0; /* Stay at the left edge */
+    }
+  }
+ 
+  
+ 
+  
+  .animated-icon {
+    animation: slideDown 3s linear infinite;
+   
+  }
+  
+  @keyframes slideDown {
+    0% {
+      transform: translateY(-100%); /* Start position: off the top */
+    }
+    100% {
+      transform: translateY(100%); /* End position: off the bottom */
+    }
+  }
+  
