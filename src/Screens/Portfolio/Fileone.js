@@ -15,6 +15,10 @@ import "./Fileone.css"
 import cloud from "./cloud1.jpg"
 import React, { useState, useEffect, useRef } from "react";
 import { GiBookAura } from "react-icons/gi";
+import { Services } from "./Services";
+import { Projects } from "./Projects";
+import { Myblogs } from "./Myblogs";
+import { ContactMe } from "./ContactMe";
 
 export const Fileone = () => {
   const [text] = useTypewriter({
@@ -110,7 +114,7 @@ export const Fileone = () => {
         </div>
       <div id="home" className="bg-white h-[100vh] ">
        
-        <div className="justify-around flex flex-col items-center p-40">
+        <div className="justify-around flex flex-col items-center p-40 animate-slide-up">
           <p className="text-blue-800 text-xl font-bold ">Hey ! I Am</p>
           <p className="text-6xl font-bold p-4 ">Ronaldo Fredrickson </p>
           <p className="text-3xl font-bold ">
@@ -144,7 +148,7 @@ export const Fileone = () => {
 
 </div>
 
-<div className=" flex-1 ">
+<div className=" flex-1 animate-slide-up">
 <div className="text-6xl font-bold p-8">About Me</div>
 <div className="p-8 text-black font-semibold ">A small river named Duden flows by their place and supplies it <br/>
 with the necessary regelialia.</div>
@@ -682,8 +686,10 @@ with the necessary regelialia.</div>
           </div>
         </div>
 
-       
-
+    <Services/>   
+<Projects />
+<Myblogs />
+<ContactMe />
 </div>
 
 
