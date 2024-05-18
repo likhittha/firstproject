@@ -16,7 +16,7 @@ export const ContactMe = ()=> {
 return(
 
 <>
-<div className=" py-30">
+<div id="contact" className=" py-30">
         <div className="text-6xl h-[10vh]  font-bold justify-center flex items-center">
  Contact Me
 </div>

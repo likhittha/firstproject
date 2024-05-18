@@ -11,7 +11,7 @@ export const Projects  = () =>{
     
     <>
  
-<div className=" py-40">
+<div id="project" className=" py-40">
         <div className="text-6xl h-[10vh]  font-bold justify-center flex items-center">
 MY Projects
 </div>

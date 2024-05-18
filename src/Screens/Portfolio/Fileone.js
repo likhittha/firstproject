@@ -97,16 +97,16 @@ export const Fileone = () => {
                 <a href="#resume">Resume</a>
               </li>
               <li className="nav-item">
-                <Link to="/services">Services</Link>
+                <a href="#services">Services</a>
               </li>
               <li className="nav-item">
-                <Link to="/project">Project</Link>
+                <a href="#project">Project</a>
               </li>
               <li className="nav-item">
-                <Link to="/my blog">My blog</Link>
+                <a href="#myblog">My blog</a>
               </li>
               <li className="nav-item">
-                <Link to="/contact">Contact</Link>
+                <a href="#contact">Contact</a>
               </li>
             </ul>
 

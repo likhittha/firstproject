@@ -8,7 +8,7 @@ export const Myblogs = () => {
 
 <>
 
-<div className=" py-30">
+<div id="myblog"  className=" py-30">
         <div className="text-6xl h-[10vh]  font-bold justify-center flex items-center">
 MY Blogs
 </div>

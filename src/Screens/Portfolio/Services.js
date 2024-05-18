@@ -9,7 +9,7 @@ export const Services = () => {
     
 return(
 <>
-<div className="px-20 py-20 ">
+<div id="services" className="px-20 py-20 ">
 <div className="text-6xl h-[10vh]  font-bold justify-center flex items-center">
 Services
 </div>
