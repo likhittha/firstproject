@@ -56,6 +56,38 @@ If you throw the covers over your head, and that triggers other thoughts such as
     </div>
     </div>
     
+
+
+<div className="text-center sm:bg-slate-500 sm:text-left bg-orange-400  ">
+hii guyssssssssss
+
+</div>
+
+
+<div className="text-center md:bg-slate-500 md:text-left bg-orange-400  ">
+hii guyssssssssss
+
+</div>
+
+<div className="text-center lg:bg-slate-500 lg:text-left bg-orange-400  ">
+hii guyssssssssss
+
+</div>
+
+<div className="text-center xl:bg-slate-500 xl:text-left bg-orange-400  ">
+hii guyssssssssss
+
+</div>
+
+
+<div className="text-center 2xl:bg-slate-500 2xl:text-left bg-orange-400  ">
+hii guyssssssssss
+
+</div>
+
+
+
+
     </>
 )
 

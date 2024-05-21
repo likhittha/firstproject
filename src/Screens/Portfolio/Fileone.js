@@ -76,8 +76,8 @@ export const Fileone = () => {
   
   return (
     <>
-     <div className="flex p-8 justify-between items-center px-60 fixed gap-12 bg-white w-full">
-          <div className=" flex justify-center items-center cursor-pointer ">
+     <div className="flex p-8 justify-between items-center sm:items-start px-60 fixed gap-12  w-full ">
+          <div className=" flex justify-center items-center cursor-pointer  ">
             <p className="text-3xl text-white bg-blue-800 rounded-full font-bold justify-center items-center flex h-9 w-9 ">
               {" "}
               R
@@ -87,7 +87,7 @@ export const Fileone = () => {
 
           <nav className="">
           <ul className="flex gap-9">
-              <li className="nav-item">
+              <li className="nav-item  ">
               <a href="#home">Home</a>
               </li>
               <li className="nav-item">
