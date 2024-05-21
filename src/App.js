@@ -18,6 +18,8 @@ import { Example1 } from "./Screens/Example/Example1";
 import { Templete } from "./Screens/Templates/Templete";
 import { Fileone } from "./Screens/Portfolio/Fileone";
 import { Practice } from "./Components/Practice";
+import { Form } from "./Components/ForProps/Form";
+import { Form1 } from "./Components/Form1";
 
 
 
@@ -125,6 +127,8 @@ demo2
         <Route path="/templete" Component={Templete} />
         <Route path="portfolio" Component={Fileone} />
         <Route path="/practice" Component={Practice} />
+        <Route path="/form" Component={Form} />
+        <Route path="/form1" Component={Form1} />
       </Routes>
     </>
   );
