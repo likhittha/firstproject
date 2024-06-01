@@ -20,7 +20,14 @@ import { Fileone } from "./Screens/Portfolio/Fileone";
 import { Practice } from "./Components/Practice";
 import { Form } from "./Components/ForProps/Form";
 import { Form1 } from "./Components/Form1";
-
+import { Form2 } from "./Components/Form2";
+import { Conditional } from "./Components/ForProps/Conditional";
+import React from "react";
+import { Variable } from "./React/Variable";
+import AnimalShow from "./React/AnimalShow";
+import Nature from "./React/Nature";
+import Season from "./React/Season";
+import Imageapi from "./React/Imageapi";
 
 
 function App() {
@@ -129,7 +136,14 @@ demo2
         <Route path="/practice" Component={Practice} />
         <Route path="/form" Component={Form} />
         <Route path="/form1" Component={Form1} />
-      </Routes>
+        <Route path="/form2" Component={Form2} />
+        <Route path="/conditional"  Component={Conditional} />
+       <Route path="/variable" Component={Variable} />
+     <Route path="/animal" Component={AnimalShow } />
+    <Route path="/nature" Component={Nature } />
+    <Route path="/season" Component={Season } />
+    <Route path="/imageapp" Component={Imageapi} />
+      </Routes> 
     </>
   );
 }
