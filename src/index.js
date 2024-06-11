@@ -4,9 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
-import { likhitha } from './api';
 
-console.log("this is me",likhitha())
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

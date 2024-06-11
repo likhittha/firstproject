@@ -28,6 +28,7 @@ import AnimalShow from "./React/AnimalShow";
 import Nature from "./React/Nature";
 import Season from "./React/Season";
 import Imageapi from "./React/Imageapi";
+import Mainbook from "./React/Mainbook";
 
 
 function App() {
@@ -143,6 +144,7 @@ demo2
     <Route path="/nature" Component={Nature } />
     <Route path="/season" Component={Season } />
     <Route path="/imageapp" Component={Imageapi} />
+     <Route path="/Mainbook" Component={Mainbook} />
       </Routes> 
     </>
   );
